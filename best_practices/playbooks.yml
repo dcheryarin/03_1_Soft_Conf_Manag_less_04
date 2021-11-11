@@ -1,0 +1,14 @@
+---
+
+#- hosts: all
+#  roles:
+#    - new-user
+
+- hosts: db
+  roles:
+    - geerlingguy.mysql
+#    - geerlingguy.clamav
+
+- hosts: appservers
+  roles:
+    - nginx

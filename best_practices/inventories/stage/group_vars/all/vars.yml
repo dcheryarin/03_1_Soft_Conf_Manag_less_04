@@ -1,0 +1,2 @@
+root_dir: "/data/nginx/html"
+django_app_path: "/data/django"

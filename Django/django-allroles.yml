@@ -1,0 +1,10 @@
+---
+
+- hosts: django_servers
+  become: true
+  roles:
+    - servergeneral
+    - nginx
+#    - postgresql
+#    - django
+#    - gunicorn
