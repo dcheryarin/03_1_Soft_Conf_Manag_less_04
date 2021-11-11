@@ -1,0 +1,4 @@
+---
+    db_user:  mydjangouser
+    db_password: SOMEPASSWORD!!!
+    db_name: djproject

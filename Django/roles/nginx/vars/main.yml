@@ -1,0 +1,5 @@
+---
+
+hostname: django.domain.local
+root: "/data/nginx/html"
+domain: djdomain
